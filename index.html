@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phu Ho - Personal Portfolio</title>
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <!-- <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Phu Ho" width="80" />
+          </figure> -->
+
+          <div class="info-content">
+            <h1 class="name" title="Phu Ho">Phu Ho</h1>
+
+            <p class="title">Data Analyst</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:honguyenthienphu1401@gmail.com"
+                  class="contact-link"
+                  >honguyenthienphu1401@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+84 912 036 237</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">Jan 14, 2000</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Ho Chi Minh City, Vietnam</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              As a passionate and results-driven Data Analyst, I thrive on
+              uncovering insights and solving complex problems through collected
+              data. With a strong background in data wrangling, visualization,
+              and statistical analysis, I specialize in turning raw data into
+              actionable strategies and valuable dashboard that contribute to
+              business success.
+            </p>
+
+            <p>
+              With three years of experience as a Sourcing Executive in e-bike
+              manufacturing, I specialize in collecting critical data from
+              multiple suppliers, including material costs, lead times,
+              quantities, and credit rates. I analyze these data by creating
+              detailed benchmarking tables and dashboard, enabling the selection
+              of the most suitable suppliers for the company. Additionally, I
+              designed dashboards and conducted A/B testing that not only help
+              reduce material costs but also support the development of
+              strategic initiatives for new projects.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/data-collecting.svg
+                "
+                    alt="data collecting icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Collecting</h4>
+
+                  <p class="service-item-text">
+                    Extract data from sources and consolidate it into a storage
+                    system (such as a Data Warehouse or Data Lake, if necessary)
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/data-cleaning.svg"
+                    alt="data cleaning icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Cleaning</h4>
+
+                  <p class="service-item-text">
+                    Handle missing values, outliers, formatting errors, and
+                    duplicates. Perform data quality checks to ensure accuracy
+                    and reliability
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/eda.svg"
+                    alt="eda icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Exploratory Data Analysis
+                  </h4>
+
+                  <p class="service-item-text">
+                    Conduct initial analysis to identify trends or patterns.Use
+                    visualization tools (Power BI, Tableau, Matplotlib, Seaborn)
+                    and statistical methods
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/da.svg"
+                    alt="data analysis icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data analysis</h4>
+
+                  <p class="service-item-text">
+                    Apply analysis techniques such as descriptive statistics,
+                    customer segmentation (Clustering), forecasting, or RFM
+                    analysis
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Ho Chi Minh City University of Technology
+                </h4>
+
+                <span>2018 — 2022</span>
+
+                <p class="timeline-text">Bachelor of Engineering</p>
+                <p class="timeline-text">Logistics & Supply Chain Management</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Unigap - Data Analyst 101
+                </h4>
+
+                <span>2024</span>
+
+                <p class="timeline-text">
+                  Data collecting, Data cleaning, EDA and Visualization
+                </p>
+                <p class="timeline-text">
+                  MySQL, Power BI, Tableau, Python and Machine Learning
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  FUNiX - Data Structure and Algorithms Course
+                </h4>
+
+                <span>2023</span>
+
+                <p class="timeline-text">MySQL, Python</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <h4 class="h4 timeline-item-title">Dat Bike Vietnam Co., Ltd</h4>
+              <span>Mar 2022 - Nov 2024</span>
+              <li class="timeline-item">
+                <h5 class="h5">
+                  <a
+                    href="https://www.linkedin.com/posts/dat-bike_datbike-quantums-greenmobility-activity-7255770851982102528-f96t?utm_source=share&utm_medium=member_desktop"
+                    style="color: hsl(181 32.4% 71%)"
+                    target="_blank"
+                  >
+                    Quantum S Launching Project (Team Member) - 1 year</a
+                  >
+                </h5>
+                <ul>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Optimized procurement processes by identifying and
+                      securing reliable suppliers for over
+                      <b>200 components</b> in a new e-bike model, reduced the
+                      Bill of Materials (BOM) cost by <b>30-40%</b> and
+                      significantly enhanced profitability
+                    </p>
+                  </li>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Developed supplier <b>metrics</b> and
+                      <b>utilized data analysis</b> to ensure competitive
+                      pricing while maintaining high standards for quality, lead
+                      time, and payment terms. Identified alternative solutions
+                      to reduce materials cost
+                    </p>
+                  </li>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Conducted market research and supplier benchmarking using
+                      Google Sheet, created technical <b>dashboards</b> and
+                      generated <b>pivot tables</b> to compare performance
+                      metrics across suppliers and inform strategic
+                      decision-making
+                    </p>
+                  </li>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Delivered a data-driven approach and successful launched a
+                      new e-bike model within an 11-month timeline, achieved a
+                      <b>30% reduction</b> in BOM cost and generated over
+                      <b>1,000 orders</b>
+                      in the first week post-launch
+                    </p>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h5 class="h5">
+                  <a
+                    href="https://www.linkedin.com/posts/dat-bike_datbike-weaver200-datcharge-activity-6969854467634606080-7k8W?utm_source=share&utm_medium=member_desktop"
+                    style="color: hsl(181 32.4% 71%)"
+                    target="_blank"
+                  >
+                    Dat Charge Station Project (Project Owner) - 3 months</a
+                  >
+                </h5>
+                <ul>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Evaluated and managed over <b>100 components</b>,
+                      materials list, suppliers list, and project development
+                      costs by building a data sheet using
+                      <b>Excel</b> containing supplier information with the
+                      critical metrics (Price; Quality; Lead time,...)
+                    </p>
+                  </li>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Planned and implemented project in cross-function:
+                      Mechanical; Hardware; Software; Marketing to ensure
+                      project going in the right direction within the
+                      <b>3 months</b> targeted timeline
+                    </p>
+                  </li>
+                  <li class="exp">
+                    <p class="timeline-text">
+                      Optimized charging time up to <b>4 times faster</b>,
+                      enhanced product’s experience
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>SQL</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Python</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Visualization</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>SQL</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Python</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Visualization</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="sql"
+              >
+                <a
+                  href="https://github.com/honguyenthienphu/E-commerce_Operational_Performance"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="SQL"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SQL</h3>
+
+                  <p class="project-category">
+                    E-commerce Operational Performance
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="sql"
+              >
+                <a
+                  href="https://github.com/honguyenthienphu/Analyzed_Students_Mental_Health"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SQL</h3>
+
+                  <p class="project-category">
+                    Analyzed Students Mental Health
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="python"
+              >
+                <a
+                  href="https://github.com/honguyenthienphu/Analyzed_Customer_Segmentation"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="python"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Python</h3>
+
+                  <p class="project-category">Analyzed Customer Segmentation</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="visualization"
+              >
+                <a
+                  href="https://github.com/honguyenthienphu/Operational_Dashboard_Purchasing"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="power bi"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Power BI</h3>
+
+                  <p class="project-category">
+                    Operational Dashboard Purchasing
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177338.1387203742!2d106.63649235727762!3d10.837595533251754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1738594808717!5m2!1svi!2s"
+                width="600"
+                height="450"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

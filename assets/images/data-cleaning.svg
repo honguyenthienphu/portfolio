@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32" fill="none">
+    <!-- Hình chữ nhật nền đại diện cho dữ liệu ban đầu -->
+    <rect x="4" y="8" width="32" height="16" rx="2" ry="2" stroke="#3585b1" stroke-width="2" fill="#E6F4FA" />
+
+    <!-- Biểu tượng cọ đại diện việc làm sạch dữ liệu -->
+    <path d="M16 14h8l-2 4h-4l-2-4z" fill="#3585b1" /> <!-- Cọ -->
+    <rect x="17.5" y="12" width="5" height="2" rx="1" fill="#3585b1" /> <!-- Tay cầm -->
+
+    <!-- Đường biểu thị sự làm sạch (trong suốt dần) -->
+    <line x1="12" y1="20" x2="28" y2="20" stroke="#3585b1" stroke-width="2" stroke-dasharray="4,3" stroke-opacity="0.6" />
+
+    <!-- Văn bản nhấn mạnh -->
+    <text x="20" y="30" fill="#3585b1" font-size="6" font-family="Arial" text-anchor="middle">Data Cleaning</text>
+</svg>

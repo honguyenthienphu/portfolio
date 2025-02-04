@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 40 32" fill="none">
+    <!-- Biểu tượng biểu đồ cột đại diện cho phân tích dữ liệu -->
+    <rect x="10" y="14" width="4" height="10" fill="#3585b1" />
+    <rect x="18" y="10" width="4" height="14" fill="#3585b1" />
+    <rect x="26" y="6" width="4" height="18" fill="#3585b1" />
+
+    <!-- Đường dẫn thể hiện xu hướng dữ liệu -->
+    <path d="M10 20 L18 14 L26 10" stroke="#3585b1" stroke-width="2" fill="none" />
+
+    <!-- Hình tròn nhỏ thể hiện các điểm dữ liệu -->
+    <circle cx="10" cy="20" r="1.5" fill="#3585b1" />
+    <circle cx="18" cy="14" r="1.5" fill="#3585b1" />
+    <circle cx="26" cy="10" r="1.5" fill="#3585b1" />
+
+    <!-- Văn bản nhấn mạnh -->
+    <text x="20" y="30" fill="#3585b1" font-size="6" font-family="Arial" text-anchor="middle">Data Analysis</text>
+</svg>
